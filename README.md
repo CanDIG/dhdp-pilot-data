@@ -26,9 +26,27 @@ The clinical data at all three sites is exactly the same and slightly modified f
 * Run the `generate_clinical_data.py` script. 
 * Data is output to the `clinical_data` directory.
 
+Each dataset is composed of 4 Programs, with:
+* 200 Follow Ups
+* 400 Comorbidities, Biomarkers, Exposures
+* 800 Donors, Primary Diagnoses, Specimens, Radiations, Surgeries
+* 1600 Treatments
+* 2400 Sample registrations
+* 3200 Systemic Therapies
+* 2 'all' type donors where all fields should be populated
+* 2 'null' type donors where all possible null fields should be nulled
+
 ## Genomic linking genomic data files
 
 Assuming you have access to the split vcf files outlined above and have uploaded them into 3 s3 buckets somewhere, edit the `s3_addresses.json` with the s3 address of the bucket for each site.
 
 Then run `make_genomic_json.py`. This will output a genomic linking json and file list for each site. Then simply upload the specified files to the correct s3 bucket.
+
+Configure the profiles in aws for each site using the keys provided and use the file lists to upload the files to the buckets, example bash script to do this is `upload_genomic_files.sh`.
+
+## Ingesting into CanDIG
+
+For each site, follow the instructions for ingest
+* [Ingesting clinical data into CanDIG](https://candig.github.io/CanDIGv2/ingest/ingest-clinical/#ingesting-clinical-data-into-candig)
+* [Ingest genomic data](https://candig.github.io/CanDIGv2/ingest/ingest-genomic/)
 

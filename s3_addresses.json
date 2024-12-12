@@ -1,5 +1,5 @@
 {
-  "SiteA": "s3://siteaaddress/",
-  "SiteB": "s3://sitebaddress/",
-  "SiteC": "s3://sitecaddress/"
+  "SiteA": "s3://dhdp-site-a/",
+  "SiteB": "s3://dhdp-site-b/",
+  "SiteC": "s3://dhdp-site-c/"
 }

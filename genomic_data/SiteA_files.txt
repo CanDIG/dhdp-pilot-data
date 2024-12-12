@@ -799,9 +799,9 @@ ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00336.vcf.g
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00332.vcf.gz
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00329.vcf.gz
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00326.vcf.gz
-ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00323.vcf.gz
+ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00325.vcf.gz
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00319.vcf.gz
-ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00313.vcf.gz
+ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00318.vcf.gz
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21144.vcf.gz.tbi
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21141.vcf.gz.tbi
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21133.vcf.gz.tbi
@@ -1603,6 +1603,6 @@ ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00336.vcf.g
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00332.vcf.gz.tbi
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00329.vcf.gz.tbi
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00326.vcf.gz.tbi
-ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00323.vcf.gz.tbi
+ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00325.vcf.gz.tbi
 ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00319.vcf.gz.tbi
-ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00313.vcf.gz.tbi
+ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.HG00318.vcf.gz.tbi

@@ -43,27 +43,13 @@ def main():
         sample_list = samples.split("\n")
     with open("s3_addresses.json", "r") as f:
         s3_addresses = json.load(f)
-    synth1_size = 204
-    synth2_size = 200
+    synth_size = 600
     site_a_genomic_json = []
     site_b_genomic_json = []
     site_c_genomic_json = []
-    for i in range(0, synth1_size):
-        s1_sample = sample_list.pop()
-        sample_number = str(i + 1).zfill(4)
-        site_a_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteA"],
-                                                     "SiteA-SYNTH_01", sample_number))
 
-        s1_sample = sample_list.pop()
-        site_b_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteB"],
-                                                     "SiteB-SYNTH_01", sample_number))
-
-        s1_sample = sample_list.pop()
-        site_c_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteC"],
-                                                     "SiteC-SYNTH_01", sample_number))
-
-    for i in range(0, synth2_size):
-        for j in range(2, 5):
+    for i in range(0, synth_size, 3):
+        for j in range(1, 5):
             s1_sample = sample_list.pop()
             sample_number = str(i + 1).zfill(4)
             site_a_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteA"],
@@ -76,6 +62,31 @@ def main():
             s1_sample = sample_list.pop()
             site_c_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteC"],
                                                          f"SiteC-SYNTH_0{j}", sample_number))
+
+    for i in range(1, 6, 3):
+        s1_sample = sample_list.pop()
+        sample_number = str(i).zfill(4)
+        site_a_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteA"],
+                                                     f"SiteA-SYNTH_01", f"ALL_{sample_number}"))
+        s1_sample = sample_list.pop()
+        site_a_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteA"],
+                                                     f"SiteA-SYNTH_01", f"NULL_{sample_number}"))
+
+        s1_sample = sample_list.pop()
+        sample_number = str(i).zfill(4)
+        site_b_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteB"],
+                                                     f"SiteB-SYNTH_01", f"ALL_{sample_number}"))
+        s1_sample = sample_list.pop()
+        site_b_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteB"],
+                                                     f"SiteB-SYNTH_01", f"NULL_{sample_number}"))
+
+        s1_sample = sample_list.pop()
+        sample_number = str(i).zfill(4)
+        site_c_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteC"],
+                                                     f"SiteC-SYNTH_01", f"ALL_{sample_number}"))
+        s1_sample = sample_list.pop()
+        site_c_genomic_json.append(make_linking_json(s1_sample, s3_addresses["SiteC"],
+                                                     f"SiteC-SYNTH_01", f"NULL_{sample_number}"))
 
     site_a_files = get_file_list(site_a_genomic_json)
     with open("genomic_data/SiteA_files.txt", "w") as f:
