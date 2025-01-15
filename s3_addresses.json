@@ -1,5 +1,5 @@
 {
-  "SiteA": "s3://ca-central-1.amazonaws.com/dhdp-site-a/",
-  "SiteB": "s3://ca-central-1.amazonaws.com/dhdp-site-b/",
-  "SiteC": "s3://ca-central-1.amazonaws.com/dhdp-site-c/"
+  "SiteA": "https://s3.amazonaws.com/dhdp-site-a/",
+  "SiteB": "https://s3.amazonaws.com/dhdp-site-b/",
+  "SiteC": "https://s3.amazonaws.com/dhdp-site-c/"
 }
