@@ -1,0 +1,9 @@
+description: Test mapping of redcap v2 export to model3 candig
+mapping: dhdp-demo-template.csv
+identifier: submitter_donor_id
+schema: https://raw.githubusercontent.com/CanDIG/katsu/develop/chord_metadata_service/mohpackets/docs/schemas/schema.yml
+schema_class: MoHSchemaV3
+reference_date: earliest_date(dhdp_agg_data.day_resolution, dhdp_agg_data.date_of_diagnosis)
+date_format: MDY
+functions:
+    - dhdp
