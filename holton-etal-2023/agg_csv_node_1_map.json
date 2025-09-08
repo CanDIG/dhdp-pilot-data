@@ -1,0 +1,4161 @@
+{
+    "openapi_url": "https://raw.githubusercontent.com/CanDIG/katsu/stable/chord_metadata_service/mohpackets/docs/schemas/schema.yml",
+    "schema_class": "MoHSchemaV3",
+    "donors": [
+        {
+            "submitter_donor_id": "d_001",
+            "program_id": "P1",
+            "is_deceased": "Not available",
+            "date_of_birth": {
+                "month_interval": -840,
+                "day_interval": -25568
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_001",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage I",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_001",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_001"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_001",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_001",
+                                    "date_of_followup": {
+                                        "month_interval": 5,
+                                        "day_interval": 166
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 39.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_002",
+            "program_id": "P1",
+            "is_deceased": "Not available",
+            "date_of_birth": {
+                "month_interval": -780,
+                "day_interval": -23742
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_002",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_002",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_002"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_002",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Not available",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_002",
+                                    "disease_status_at_followup": "Not available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 50.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_003",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -624,
+                "day_interval": -18993
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_003",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_003",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_003"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_003",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_003",
+                                    "date_of_followup": {
+                                        "month_interval": 8,
+                                        "day_interval": 253
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Lifelong non-smoker (<100 cigarettes smoked in lifetime)"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_004",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -828,
+                "day_interval": -25203
+            },
+            "date_of_death": {
+                "month_interval": 6,
+                "day_interval": 210
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_004",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage I",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_004",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_004"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_004",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_004",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 48
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 100.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_005",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -708,
+                "day_interval": -21550
+            },
+            "date_of_death": {
+                "month_interval": 7,
+                "day_interval": 233
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_005",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_005",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_005"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_005",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_005",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 132
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 20.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_006",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -900,
+                "day_interval": -27394
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_006",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_006",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_006"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_006",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_006",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 61
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_007",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -768,
+                "day_interval": -23376
+            },
+            "date_of_death": {
+                "month_interval": 7,
+                "day_interval": 237
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_007",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_007",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_007"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_007",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_007",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 129
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 100.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_008",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -804,
+                "day_interval": -24472
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_008",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_008",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_008"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_008",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_008",
+                                    "date_of_followup": {
+                                        "month_interval": 7,
+                                        "day_interval": 221
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 100.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_009",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -1056,
+                "day_interval": -32142
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_009",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_009",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_009"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_009",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_009",
+                                    "date_of_followup": {
+                                        "month_interval": 7,
+                                        "day_interval": 239
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 60.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_010",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -612,
+                "day_interval": -18628
+            },
+            "date_of_death": {
+                "month_interval": 11,
+                "day_interval": 358
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_010",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_010",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_010"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_010",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_010",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 85
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 10.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_011",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -936,
+                "day_interval": -28490
+            },
+            "date_of_death": {
+                "month_interval": 5,
+                "day_interval": 178
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_011",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_011",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_011"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_011",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_011",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 70
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 10.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_012",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -564,
+                "day_interval": -17167
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_012",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_012",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_012"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_012",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_012",
+                                    "date_of_followup": {
+                                        "month_interval": 3,
+                                        "day_interval": 104
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 120.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_013",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -768,
+                "day_interval": -23376
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_013",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_013",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_013"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_013",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_013",
+                                    "date_of_followup": {
+                                        "month_interval": 5,
+                                        "day_interval": 152
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_014",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -804,
+                "day_interval": -24472
+            },
+            "date_of_death": {
+                "month_interval": 9,
+                "day_interval": 280
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_014",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_014",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_014"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_014",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_014",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 87
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 41.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_015",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -660,
+                "day_interval": -20089
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_015",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_015",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_015"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_015",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_015",
+                                    "date_of_followup": {
+                                        "month_interval": 3,
+                                        "day_interval": 103
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 60.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_016",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -828,
+                "day_interval": -25203
+            },
+            "date_of_death": {
+                "month_interval": 6,
+                "day_interval": 187
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_016",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_016",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_016"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_016",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_016",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 89
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 35.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_017",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -660,
+                "day_interval": -20089
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_017",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Not available",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_017",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_017"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_017",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_017",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 67
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_018",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -840,
+                "day_interval": -25568
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_018",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_018",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_018"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_018",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_018",
+                                    "date_of_followup": {
+                                        "month_interval": 7,
+                                        "day_interval": 228
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 10.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_019",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -588,
+                "day_interval": -17898
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_019",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_019",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_019"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_019",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Complete response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_019",
+                                    "date_of_followup": {
+                                        "month_interval": 12,
+                                        "day_interval": 378
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 20.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_020",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -660,
+                "day_interval": -20089
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_020",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_020",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_020"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_020",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_020",
+                                    "date_of_followup": {
+                                        "month_interval": 15,
+                                        "day_interval": 471
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 25.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_021",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -948,
+                "day_interval": -28855
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_021",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_021",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_021"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_021",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_021",
+                                    "date_of_followup": {
+                                        "month_interval": 6,
+                                        "day_interval": 202
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 50.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_022",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -876,
+                "day_interval": -26664
+            },
+            "date_of_death": {
+                "month_interval": 18,
+                "day_interval": 566
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_022",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_022",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_022"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_022",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_022",
+                                    "date_of_followup": {
+                                        "month_interval": 10,
+                                        "day_interval": 306
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 60.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_023",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -816,
+                "day_interval": -24837
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_023",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_023",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_023"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_023",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_023",
+                                    "disease_status_at_followup": "Not available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 53.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_024",
+            "program_id": "P1",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -924,
+                "day_interval": -28125
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_024",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_024",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_024"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_024",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_024",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 55
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 50.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_025",
+            "program_id": "P1",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -828,
+                "day_interval": -25203
+            },
+            "date_of_death": {
+                "month_interval": 1,
+                "day_interval": 41
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_025",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_025",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_025"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_025",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Not available",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_025",
+                                    "disease_status_at_followup": "Not available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 25.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_026",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -612,
+                "day_interval": -18628
+            },
+            "date_of_death": {
+                "month_interval": 7,
+                "day_interval": 232
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_026",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_026",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_026"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_026",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_026",
+                                    "disease_status_at_followup": "Not available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Lifelong non-smoker (<100 cigarettes smoked in lifetime)"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_027",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -576,
+                "day_interval": -17532
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_027",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_027",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_027"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_027",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_027",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 57
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Lifelong non-smoker (<100 cigarettes smoked in lifetime)"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_028",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -876,
+                "day_interval": -26664
+            },
+            "date_of_death": {
+                "month_interval": 4,
+                "day_interval": 130
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_028",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_028",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_028"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_028",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_028",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 55
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Lifelong non-smoker (<100 cigarettes smoked in lifetime)"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_029",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -732,
+                "day_interval": -22281
+            },
+            "date_of_death": {
+                "month_interval": 11,
+                "day_interval": 357
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_029",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_029",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_029"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_029",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_029",
+                                    "date_of_followup": {
+                                        "month_interval": 3,
+                                        "day_interval": 109
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 22.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_030",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -816,
+                "day_interval": -24837
+            },
+            "date_of_death": {
+                "month_interval": 0,
+                "day_interval": 11
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_030",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_030",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_030"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_030",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_030",
+                                    "date_of_followup": {
+                                        "month_interval": 0,
+                                        "day_interval": 3
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 3.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_031",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -948,
+                "day_interval": -28855
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_031",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_031",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_031"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_031",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_031",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 57
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 3.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_032",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -720,
+                "day_interval": -21915
+            },
+            "date_of_death": {
+                "month_interval": 1,
+                "day_interval": 31
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_032",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_032",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_032"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_032",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_032",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 31
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 20.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_033",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -744,
+                "day_interval": -22646
+            },
+            "date_of_death": {
+                "month_interval": 6,
+                "day_interval": 190
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_033",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage I",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_033",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_033"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_033",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_033",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 55
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_034",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -864,
+                "day_interval": -26298
+            },
+            "date_of_death": {
+                "month_interval": 23,
+                "day_interval": 702
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_034",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_034",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_034"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_034",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_034",
+                                    "date_of_followup": {
+                                        "month_interval": 16,
+                                        "day_interval": 504
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 50.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_035",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -576,
+                "day_interval": -17532
+            },
+            "date_of_death": {
+                "month_interval": 24,
+                "day_interval": 730
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_035",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_035",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_035"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_035",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_035",
+                                    "disease_status_at_followup": "Not available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 68.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_036",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -528,
+                "day_interval": -16071
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_036",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_036",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_036"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_036",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_036",
+                                    "date_of_followup": {
+                                        "month_interval": 37,
+                                        "day_interval": 1145
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Lifelong non-smoker (<100 cigarettes smoked in lifetime)"
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_037",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -864,
+                "day_interval": -26298
+            },
+            "date_of_death": {
+                "month_interval": 0,
+                "day_interval": 9
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_037",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_037",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_037"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_037",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_037",
+                                    "date_of_followup": {
+                                        "month_interval": 0,
+                                        "day_interval": 9
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 4.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_038",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -744,
+                "day_interval": -22646
+            },
+            "date_of_death": {
+                "month_interval": 3,
+                "day_interval": 118
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_038",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_038",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_038"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_038",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_038",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 70
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 70.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_039",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -840,
+                "day_interval": -25568
+            },
+            "date_of_death": {
+                "month_interval": 12,
+                "day_interval": 386
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_039",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_039",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_039"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_039",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_039",
+                                    "date_of_followup": {
+                                        "month_interval": 10,
+                                        "day_interval": 326
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 15.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_040",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -744,
+                "day_interval": -22646
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_040",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage I",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_040",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_040"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_040",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_040",
+                                    "date_of_followup": {
+                                        "month_interval": 15,
+                                        "day_interval": 476
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current smoker",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_041",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -732,
+                "day_interval": -22281
+            },
+            "date_of_death": {
+                "month_interval": 2,
+                "day_interval": 66
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_041",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_041",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_041"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_041",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_041",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 55
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 60.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_042",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -840,
+                "day_interval": -25568
+            },
+            "date_of_death": {
+                "month_interval": 12,
+                "day_interval": 380
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_042",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_042",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_042"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_042",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_042",
+                                    "date_of_followup": {
+                                        "month_interval": 10,
+                                        "day_interval": 310
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 100.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_043",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -936,
+                "day_interval": -28490
+            },
+            "date_of_death": {
+                "month_interval": 8,
+                "day_interval": 262
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_043",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_043",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_043"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_043",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_043",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 137
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 80.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_044",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -720,
+                "day_interval": -21915
+            },
+            "date_of_death": {
+                "month_interval": 18,
+                "day_interval": 551
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_044",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage I",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_044",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_044"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_044",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_044",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 41
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 20.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_045",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -816,
+                "day_interval": -24837
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_045",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_045",
+                            "tumour_histological_type": "8070/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_045"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_045",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_045",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 71
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_046",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -660,
+                "day_interval": -20089
+            },
+            "date_of_death": {
+                "month_interval": 16,
+                "day_interval": 486
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_046",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_046",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_046"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_046",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_046",
+                                    "date_of_followup": {
+                                        "month_interval": 5,
+                                        "day_interval": 158
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_047",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -840,
+                "day_interval": -25568
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_047",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_047",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_047"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_047",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_047",
+                                    "date_of_followup": {
+                                        "month_interval": 8,
+                                        "day_interval": 258
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 28.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_048",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -672,
+                "day_interval": -20454
+            },
+            "date_of_death": {
+                "month_interval": 3,
+                "day_interval": 117
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_048",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_048",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_048"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_048",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_048",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 76
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 35.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_049",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -744,
+                "day_interval": -22646
+            },
+            "date_of_death": {
+                "month_interval": 19,
+                "day_interval": 601
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_049",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_049",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_049"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_049",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_049",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 123
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 15.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_050",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -1068,
+                "day_interval": -32508
+            },
+            "date_of_death": {
+                "month_interval": 30,
+                "day_interval": 923
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_050",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_050",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_050"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_050",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_050",
+                                    "date_of_followup": {
+                                        "month_interval": 24,
+                                        "day_interval": 760
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 10.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_051",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -564,
+                "day_interval": -17167
+            },
+            "date_of_death": {
+                "month_interval": 9,
+                "day_interval": 296
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_051",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_051",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_051"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_051",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_051",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 130
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 15.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_052",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -624,
+                "day_interval": -18993
+            },
+            "date_of_death": {
+                "month_interval": 14,
+                "day_interval": 442
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_052",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_052",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_052"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_052",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_052",
+                                    "date_of_followup": {
+                                        "month_interval": 4,
+                                        "day_interval": 125
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 40.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_053",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -876,
+                "day_interval": -26664
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_053",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage II",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_053",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_053"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_053",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Stable disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_053",
+                                    "date_of_followup": {
+                                        "month_interval": 15,
+                                        "day_interval": 457
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 30.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_054",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -828,
+                "day_interval": -25203
+            },
+            "date_of_death": {
+                "month_interval": 3,
+                "day_interval": 100
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_054",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_054",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_054"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_054",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Atezolizumab",
+                                    "drug_reference_identifier": "1792776"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_054",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 52
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 15.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_055",
+            "program_id": "P2",
+            "is_deceased": "Yes",
+            "date_of_birth": {
+                "month_interval": -888,
+                "day_interval": -27029
+            },
+            "date_of_death": {
+                "month_interval": 4,
+                "day_interval": 122
+            },
+            "sex_at_birth": "Male",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_055",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_055",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_055"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_055",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_055",
+                                    "date_of_followup": {
+                                        "month_interval": 1,
+                                        "day_interval": 36
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 40.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_056",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -780,
+                "day_interval": -23742
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_056",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage IV",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_056",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_056"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_056",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Partial response",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Nivolumab",
+                                    "drug_reference_identifier": "1597876"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_056",
+                                    "date_of_followup": {
+                                        "month_interval": 10,
+                                        "day_interval": 326
+                                    },
+                                    "disease_status_at_followup": "Stable"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified",
+                    "pack_years_smoked": 4.0
+                }
+            ]
+        },
+        {
+            "submitter_donor_id": "d_057",
+            "program_id": "P2",
+            "is_deceased": "No",
+            "date_of_birth": {
+                "month_interval": -648,
+                "day_interval": -19724
+            },
+            "sex_at_birth": "Female",
+            "date_resolution": "day",
+            "primary_diagnoses": [
+                {
+                    "primary_site": "Bronchus and lung",
+                    "submitter_primary_diagnosis_id": "pd_057",
+                    "date_of_diagnosis": {
+                        "month_interval": 0,
+                        "day_interval": 0
+                    },
+                    "cancer_type_code": "C34",
+                    "clinical_stage_group": "Stage III",
+                    "specimens": [
+                        {
+                            "submitter_specimen_id": "spc_057",
+                            "tumour_histological_type": "8140/3",
+                            "sample_registrations": [
+                                {
+                                    "submitter_sample_id": "smp_057"
+                                }
+                            ]
+                        }
+                    ],
+                    "treatments": [
+                        {
+                            "submitter_treatment_id": "tx_057",
+                            "treatment_type": [
+                                "Systemic therapy"
+                            ],
+                            "response_to_treatment_criteria_method": "RECIST 1.1",
+                            "response_to_treatment": "Progressive disease",
+                            "systemic_therapies": [
+                                {
+                                    "systemic_therapy_type": "Immunotherapy",
+                                    "drug_reference_database": "RxNorm",
+                                    "drug_name": "Pembrolizumab",
+                                    "drug_reference_identifier": "1547545"
+                                }
+                            ],
+                            "followups": [
+                                {
+                                    "submitter_follow_up_id": "fu_057",
+                                    "date_of_followup": {
+                                        "month_interval": 2,
+                                        "day_interval": 82
+                                    },
+                                    "disease_status_at_followup": "Progression not otherwise specified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "exposures": [
+                {
+                    "tobacco_smoking_status": "Current reformed smoker, duration not specified"
+                }
+            ]
+        }
+    ],
+    "statistics": {
+        "required_but_missing": {
+            "donors": {
+                "submitter_donor_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "gender": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "sex_at_birth": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "is_deceased": {
+                    "total": 57,
+                    "missing": 2
+                },
+                "program_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "date_resolution": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "date_of_birth": {
+                    "total": 57,
+                    "missing": 0
+                }
+            },
+            "primary_diagnoses": {
+                "submitter_primary_diagnosis_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "date_of_diagnosis": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "cancer_type_code": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "primary_site": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "basis_of_diagnosis": {
+                    "total": 57,
+                    "missing": 57
+                }
+            },
+            "specimens": {
+                "submitter_specimen_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "specimen_collection_date": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "specimen_storage": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "specimen_anatomic_location": {
+                    "total": 57,
+                    "missing": 57
+                }
+            },
+            "sample_registrations": {
+                "submitter_sample_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "specimen_tissue_source": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "specimen_type": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "sample_type": {
+                    "total": 57,
+                    "missing": 57
+                }
+            },
+            "treatments": {
+                "submitter_treatment_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "treatment_type": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "is_primary_treatment": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "treatment_start_date": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "treatment_end_date": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "treatment_intent": {
+                    "total": 57,
+                    "missing": 57
+                }
+            },
+            "systemic_therapies": {
+                "systemic_therapy_type": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "start_date": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "end_date": {
+                    "total": 57,
+                    "missing": 57
+                },
+                "drug_reference_database": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "drug_reference_identifier": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "drug_name": {
+                    "total": 57,
+                    "missing": 0
+                }
+            },
+            "followups": {
+                "submitter_follow_up_id": {
+                    "total": 57,
+                    "missing": 0
+                },
+                "date_of_followup": {
+                    "total": 57,
+                    "missing": 5
+                },
+                "disease_status_at_followup": {
+                    "total": 57,
+                    "missing": 5
+                }
+            },
+            "exposures": {}
+        },
+        "schemas_used": [
+            "donors",
+            "primary_diagnoses",
+            "specimens",
+            "sample_registrations",
+            "treatments",
+            "systemic_therapies",
+            "followups",
+            "exposures"
+        ],
+        "schemas_not_used": [
+            "radiations",
+            "comorbidities",
+            "biomarkers",
+            "surgeries"
+        ],
+        "summary_cases": {
+            "complete_cases": 0,
+            "total_cases": 57
+        }
+    }
+}

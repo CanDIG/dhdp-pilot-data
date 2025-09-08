@@ -1,4 +1,5 @@
-Data was retreived and transformed from https://zenodo.org/records/7625517.
+
+Data was retreived, subsetted and transformed from https://zenodo.org/records/7625517.
 
 Dates in the aggregated csv are made up using a fake diagnosis date of 01/01/2025 and using ages and survival days to calculate matching reference dates.
 

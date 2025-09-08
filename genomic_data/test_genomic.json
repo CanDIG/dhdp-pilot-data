@@ -1,0 +1,44 @@
+{
+  "experiments": [
+    {
+      "program_id": "SiteC-SYNTH_01",
+      "experiment_id": "SiteC-SAMPLE_0001-EXP",
+      "submitter_sample_id": "NA21142",
+      "metadata": {
+        "library_strategy": "WGS",
+        "library_description": "1000Genomes data, variants from chromosome 17, see their documentation for full details",
+        "instrument": "Illumina HiSeq 2500",
+        "library_selection": "size fractionation",
+        "protocol": "https://www.internationalgenome.org/",
+        "library_source": "genomic",
+        "library_layout": "paired"
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "program_id": "SiteC-SYNTH_01",
+      "analysis_id": "NA21142-chr17-vcf",
+      "metadata": {
+        "analysis_type": "sequence_variation",
+        "analysis_attribute": {
+          "subtype": "mutation"
+        },
+        "reference": "hg38",
+        "reference_sequence_type": "Whole genome sequencing",
+        "analysis_centre": "1000Genomes"
+      },
+      "main": {
+        "access_method": "https://s3.amazonaws.com/dhdp-site-c/ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21142.vcf.gz",
+        "name": "ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21142.vcf.gz"
+      },
+      "index": {
+        "access_method": "https://s3.amazonaws.com/dhdp-site-c/ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21142.vcf.gz.tbi",
+        "name": "ALL.chr17.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.NA21142.vcf.gz.tbi"
+      },
+      "samples": {
+        "experiment_id": "SiteC-SAMPLE_0001-EXP",
+        "analysis_sample_id": "NA21142"
+      }
+    }]
+}
