@@ -1,0 +1,45 @@
+{
+  "study_id": "NODE2~P4",
+  "study_name": "Genomic and transcriptomic analysis of checkpoint blockade response in advanced non-small cell lung cancer",
+  "study_description": "This data is adapted from the listed study and is used for testing purposes for the development of the Digital Health & Discovery Platform (DHDP).",
+  "program_name": "string",
+  "keywords": [
+    "cancer", "NSCLC", "immunotherapy", "genomics", "transcriptomics"
+  ],
+  "status": "Completed",
+  "context": "Research",
+  "domain": [
+    "Cancer"
+  ],
+  "dac_id": "DAC-002",
+  "participant_criteria": "Non-small cell lung cancer (NSCLC) patients treated with anti-PD-(L)1 therapy.",
+  "principal_investigators": [
+    "Justin F. Gainor, Massachusetts General Hospital Cancer Center, Massachusetts General Hospital",
+    "Gad Getz, Broad Institute of Massachusetts Institute of Technology (MIT) and Harvard",
+    "Nir Hacohen, Broad Institute of Massachusetts Institute of Technology (MIT) and Harvard"
+  ],
+  "lead_organizations": [
+    "Broad Institute of Massachusetts Institute of Technology (MIT) and Harvard",
+    "Massachusetts General Hospital Cancer Center, Massachusetts General Hospital",
+    "Center for Cancer Research, Massachusetts General Hospital"
+  ],
+  "collaborators": [
+    "Mark Holton",
+    "Monica Arniella",
+    "Arvind Ravi",
+    "Farnoosh Abbas Aghababazadeh"
+  ],
+  "funding_sources": [
+    "Stand Up To Cancer—American Cancer Society Lung Cancer Dream Team Translational Research Grant, SU2C-AACR-DT17-15",
+    "The Mark Foundation for Cancer Research, 19-029-MIA",
+    "Conquer Cancer Foundation Young Investigator Award",
+    "Friends of Farber Award",
+    "Ruth L. Kirschstein National Research Service Award (NRSA) Institutional Research Training Grant, 5T32GM007367-43",
+    "SITC Genentech Fellowship Award",
+    "Conquer Cancer YIA and Damon Runyon Mark Foundation Physician-Scientist Training Award"
+  ],
+  "publication_links": [
+    "https://doi.org/10.5281/zenodo.7625517",
+    "https://doi.org/10.1038/s41588-023-01355-5"
+  ]
+}
