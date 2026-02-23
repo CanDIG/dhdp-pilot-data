@@ -6,6 +6,7 @@ CANDIG_URL_NODE_3=http://10.11.0.13:5080
 
 NODE1_DATA_PATH=`pwd`/holton-etal-2023/node1_omop.json
 NODE2_DATA_PATH=`pwd`/holton-etal-2023/node2_omop.json
+NODE3_DATA_PATH=`pwd`/clinical_data/node3_omop.json
 
 NODE1_DATASET1_INFO_PATH=`pwd`/holton-etal-2023/NODE1-P1-dataset_info.json
 NODE1_DATASET2_INFO_PATH=`pwd`/holton-etal-2023/NODE1-P2-dataset_info.json
@@ -20,28 +21,57 @@ curl -s --request POST \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
  -H 'Authorization: Bearer '$NODE1_TOKEN \
- -d '{"dataset_id": "NODE1~P1", "dataset_curators": ["user1@test.ca"], "team_members": []}'
+ -d '{"dataset_id": "NODE1~P1", "dataset_curators": [], "team_members": ["user1@test.ca"]}'
 
 curl -s --request POST \
  --url $CANDIG_URL_NODE_1'/candig-api/v1/authz/dataset' \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
  -H 'Authorization: Bearer '$NODE1_TOKEN \
- -d '{"dataset_id": "NODE1~P2", "dataset_curators": ["user2@test.ca"], "team_members": []}'
+ -d '{"dataset_id": "NODE1~P2", "dataset_curators": [], "team_members": ["user1@test.ca"]}'
 
  curl -s --request POST \
  --url $CANDIG_URL_NODE_2'/candig-api/v1/authz/dataset' \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
  -H 'Authorization: Bearer '$NODE2_TOKEN \
- -d '{"dataset_id": "NODE2~P3", "dataset_curators": ["user1@test.ca"], "team_members": []}'
+ -d '{"dataset_id": "NODE2~P3", "dataset_curators": [], "team_members": ["user1@test.ca"]}'
 
 curl -s --request POST \
  --url $CANDIG_URL_NODE_2'/candig-api/v1/authz/dataset' \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
  -H 'Authorization: Bearer '$NODE2_TOKEN \
- -d '{"dataset_id": "NODE2~P4", "dataset_curators": ["user2@test.ca"], "team_members": []}'
+ -d '{"dataset_id": "NODE2~P4", "dataset_curators": [], "team_members": ["user1@test.ca"]}'
+
+curl -s --request POST \
+ --url $CANDIG_URL_NODE_3'/candig-api/v1/authz/dataset' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer '$NODE3_TOKEN \
+ -d '{"dataset_id": "NODE3~med-SYNTH_01", "dataset_curators": [], "team_members": []}'
+ 
+ curl -s --request POST \
+ --url $CANDIG_URL_NODE_3'/candig-api/v1/authz/dataset' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer '$NODE3_TOKEN \
+ -d '{"dataset_id": "NODE3~med-SYNTH_02", "dataset_curators": ["user2@test.ca"], "team_members": []}'
+
+curl -s --request POST \
+ --url $CANDIG_URL_NODE_3'/candig-api/v1/authz/dataset' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer '$NODE3_TOKEN \
+ -d '{"dataset_id": "NODE3~med-SYNTH_03", "dataset_curators": [], "team_members": []}'
+
+curl -s --request POST \
+ --url $CANDIG_URL_NODE_3'/candig-api/v1/authz/dataset' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer '$NODE3_TOKEN \
+ -d '{"dataset_id": "NODE3~med-SYNTH_04", "dataset_curators": [], "team_members": []}'
+
 
  ## ingest dataset files
 
@@ -54,6 +84,19 @@ curl -X POST $CANDIG_URL_NODE_2'/candig-api/v1/datasets/upload' \
   -H "Authorization: Bearer $NODE2_TOKEN" \
   -H "Content-Type: multipart/form-data" \
   -F "file=@"$NODE2_DATA_PATH
+  
+curl -X POST $CANDIG_URL_NODE_3'/candig-api/v1/datasets/upload' \
+  -H "Authorization: Bearer $NODE3_TOKEN" \
+  -H "Content-Type: multipart/form-data" \
+  -F "file=@"$NODE3_DATA_PATH
+
+## check status
+
+curl -X 'GET' \
+ $CANDIG_URL'/ingest/status/<your_queue_id>' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer '$TOKEN
 
 ## ingest dataset info
 curl -X PATCH $CANDIG_URL_NODE_1'/candig-api/v1/datasets/NODE1~P1/info' \
@@ -84,4 +127,45 @@ curl -X GET $CANDIG_URL_NODE_2'/candig-api/v1/datasets/NODE2~P4/info' \
   -H "Authorization: Bearer $NODE2_TOKEN" \
   -H 'accept: application/json'
 
-
+## delete if needed
+#curl -X DELETE $CANDIG_URL_NODE_1'/candig-api/v1/datasets/SITE_NODE1~SYNTH_01' \
+#  -H "Authorization: Bearer $NODE1_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_1'/candig-api/v1/datasets/SITE_NODE1~SYNTH_02' \
+#  -H "Authorization: Bearer $NODE1_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_1'/candig-api/v1/datasets/NODE1~P1' \
+#  -H "Authorization: Bearer $NODE1_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_1'/candig-api/v1/datasets/NODE1~P2' \
+#  -H "Authorization: Bearer $NODE1_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_2'/candig-api/v1/datasets/SITE_NODE2~SYNTH_02' \
+#  -H "Authorization: Bearer $NODE2_TOKEN" \
+#  -H 'accept: application/json'
+#
+#
+#curl -X DELETE $CANDIG_URL_NODE_2'/candig-api/v1/datasets/SITE_NODE2~SYNTH_01' \
+#  -H "Authorization: Bearer $NODE2_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_2'/candig-api/v1/datasets/NODE2~P3' \
+#  -H "Authorization: Bearer $NODE2_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_2'/candig-api/v1/datasets/NODE2~P4' \
+#  -H "Authorization: Bearer $NODE2_TOKEN" \
+#  -H 'accept: application/json'
+#
+#
+#curl -X DELETE $CANDIG_URL_NODE_3'/candig-api/v1/datasets/SITE_NODE3~SYNTH_01' \
+#  -H "Authorization: Bearer $NODE3_TOKEN" \
+#  -H 'accept: application/json'
+#
+#curl -X DELETE $CANDIG_URL_NODE_3'/candig-api/v1/datasets/SITE_NODE3~SYNTH_02' \
+#  -H "Authorization: Bearer $NODE3_TOKEN" \
+#  -H 'accept: application/json'
