@@ -16,12 +16,6 @@
 					},
 					"linked_records": [
 						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
-						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
 								"condition_occurrence_id": "pd_001~OMOP_Primary_Dx_Condition",
@@ -99,7 +93,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_001~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_001"
 							}
 						},
 						{
@@ -251,7 +246,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-06-15",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_001~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_001~OMOP_Follow_Up_Visit_Occurrence",
@@ -261,14 +256,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_001~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_001~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_001~OMOP_Treatment_Episode",
+								"event_id": "fu_001~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -306,12 +297,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -390,7 +375,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_002~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_002"
 							}
 						},
 						{
@@ -552,14 +538,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_002~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_002~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_002~OMOP_Treatment_Episode",
+								"event_id": "fu_002~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -597,12 +579,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -681,7 +657,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_003~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_003"
 							}
 						},
 						{
@@ -833,7 +810,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-09-10",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_003~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_003~OMOP_Follow_Up_Visit_Occurrence",
@@ -843,14 +820,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_003~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_003~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_003~OMOP_Treatment_Episode",
+								"event_id": "fu_003~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -961,7 +934,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_004~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_004"
 							}
 						},
 						{
@@ -1113,7 +1087,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-18",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_004~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_004~OMOP_Follow_Up_Visit_Occurrence",
@@ -1123,14 +1097,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_004~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_004~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_004~OMOP_Treatment_Episode",
+								"event_id": "fu_004~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -1252,7 +1222,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_005~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_005"
 							}
 						},
 						{
@@ -1404,7 +1375,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-12",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_005~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_005~OMOP_Follow_Up_Visit_Occurrence",
@@ -1414,14 +1385,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_005~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_005~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_005~OMOP_Treatment_Episode",
+								"event_id": "fu_005~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -1459,12 +1426,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -1543,7 +1504,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_006~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_006"
 							}
 						},
 						{
@@ -1695,7 +1657,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-02",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_006~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_006~OMOP_Follow_Up_Visit_Occurrence",
@@ -1705,14 +1667,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_006~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_006~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_006~OMOP_Treatment_Episode",
+								"event_id": "fu_006~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -1834,7 +1792,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_007~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_007"
 							}
 						},
 						{
@@ -1986,7 +1945,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-09",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_007~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_007~OMOP_Follow_Up_Visit_Occurrence",
@@ -1996,14 +1955,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_007~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_007~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_007~OMOP_Treatment_Episode",
+								"event_id": "fu_007~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -2041,12 +1996,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -2125,7 +2074,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_008~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_008"
 							}
 						},
 						{
@@ -2277,7 +2227,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-08-09",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_008~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_008~OMOP_Follow_Up_Visit_Occurrence",
@@ -2287,14 +2237,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_008~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_008~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_008~OMOP_Treatment_Episode",
+								"event_id": "fu_008~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -2332,12 +2278,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -2416,7 +2356,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_009~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_009"
 							}
 						},
 						{
@@ -2568,7 +2509,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-08-27",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_009~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_009~OMOP_Follow_Up_Visit_Occurrence",
@@ -2578,14 +2519,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_009~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_009~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_009~OMOP_Treatment_Episode",
+								"event_id": "fu_009~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -2707,7 +2644,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_010~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_010"
 							}
 						},
 						{
@@ -2859,7 +2797,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-26",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_010~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_010~OMOP_Follow_Up_Visit_Occurrence",
@@ -2869,14 +2807,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_010~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_010~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_010~OMOP_Treatment_Episode",
+								"event_id": "fu_010~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -2998,7 +2932,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_011~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_011"
 							}
 						},
 						{
@@ -3150,7 +3085,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-11",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_011~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_011~OMOP_Follow_Up_Visit_Occurrence",
@@ -3160,14 +3095,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_011~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_011~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_011~OMOP_Treatment_Episode",
+								"event_id": "fu_011~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -3205,12 +3136,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -3289,7 +3214,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_012~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_012"
 							}
 						},
 						{
@@ -3441,7 +3367,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-04-14",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_012~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_012~OMOP_Follow_Up_Visit_Occurrence",
@@ -3451,14 +3377,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_012~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_012~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_012~OMOP_Treatment_Episode",
+								"event_id": "fu_012~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -3496,12 +3418,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -3580,7 +3496,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_013~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_013"
 							}
 						},
 						{
@@ -3732,7 +3649,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-06-01",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_013~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_013~OMOP_Follow_Up_Visit_Occurrence",
@@ -3742,14 +3659,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_013~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_013~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_013~OMOP_Treatment_Episode",
+								"event_id": "fu_013~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -3871,7 +3784,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_014~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_014"
 							}
 						},
 						{
@@ -4023,7 +3937,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-28",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_014~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_014~OMOP_Follow_Up_Visit_Occurrence",
@@ -4033,14 +3947,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_014~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_014~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_014~OMOP_Treatment_Episode",
+								"event_id": "fu_014~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -4078,12 +3988,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -4162,7 +4066,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_015~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_015"
 							}
 						},
 						{
@@ -4314,7 +4219,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-04-13",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_015~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_015~OMOP_Follow_Up_Visit_Occurrence",
@@ -4324,14 +4229,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_015~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_015~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_015~OMOP_Treatment_Episode",
+								"event_id": "fu_015~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -4453,7 +4354,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_016~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_016"
 							}
 						},
 						{
@@ -4605,7 +4507,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-30",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_016~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_016~OMOP_Follow_Up_Visit_Occurrence",
@@ -4615,14 +4517,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_016~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_016~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_016~OMOP_Treatment_Episode",
+								"event_id": "fu_016~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -4660,12 +4558,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -4744,7 +4636,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_017~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_017"
 							}
 						},
 						{
@@ -4896,7 +4789,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-08",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_017~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_017~OMOP_Follow_Up_Visit_Occurrence",
@@ -4906,14 +4799,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_017~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_017~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_017~OMOP_Treatment_Episode",
+								"event_id": "fu_017~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -4940,12 +4829,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -5024,7 +4907,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_018~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_018"
 							}
 						},
 						{
@@ -5176,7 +5060,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-08-16",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_018~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_018~OMOP_Follow_Up_Visit_Occurrence",
@@ -5186,14 +5070,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_018~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_018~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_018~OMOP_Treatment_Episode",
+								"event_id": "fu_018~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -5231,12 +5111,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -5315,7 +5189,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_019~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_019"
 							}
 						},
 						{
@@ -5467,7 +5342,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2001-01-13",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_019~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_019~OMOP_Follow_Up_Visit_Occurrence",
@@ -5477,14 +5352,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_019~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_019~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_019~OMOP_Treatment_Episode",
+								"event_id": "fu_019~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -5522,12 +5393,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -5606,7 +5471,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_020~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_020"
 							}
 						},
 						{
@@ -5758,7 +5624,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2001-04-16",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_020~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_020~OMOP_Follow_Up_Visit_Occurrence",
@@ -5768,14 +5634,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_020~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_020~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_020~OMOP_Treatment_Episode",
+								"event_id": "fu_020~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -5813,12 +5675,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -5897,7 +5753,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_021~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_021"
 							}
 						},
 						{
@@ -6049,7 +5906,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-07-21",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_021~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_021~OMOP_Follow_Up_Visit_Occurrence",
@@ -6059,14 +5916,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_021~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_021~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_021~OMOP_Treatment_Episode",
+								"event_id": "fu_021~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -6188,7 +6041,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_022~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_022"
 							}
 						},
 						{
@@ -6340,7 +6194,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-11-02",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_022~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_022~OMOP_Follow_Up_Visit_Occurrence",
@@ -6350,14 +6204,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_022~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_022~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_022~OMOP_Treatment_Episode",
+								"event_id": "fu_022~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -6395,12 +6245,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -6479,7 +6323,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_023~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_023"
 							}
 						},
 						{
@@ -6641,14 +6486,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_023~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_023~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_023~OMOP_Treatment_Episode",
+								"event_id": "fu_023~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -6686,12 +6527,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -6770,7 +6605,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_024~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_024"
 							}
 						},
 						{
@@ -6922,7 +6758,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-25",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_024~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_024~OMOP_Follow_Up_Visit_Occurrence",
@@ -6932,14 +6768,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_024~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_024~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_024~OMOP_Treatment_Episode",
+								"event_id": "fu_024~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -7061,7 +6893,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_025~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_025"
 							}
 						},
 						{
@@ -7223,14 +7056,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_025~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_025~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_025~OMOP_Treatment_Episode",
+								"event_id": "fu_025~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -7357,7 +7186,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_026~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_026"
 							}
 						},
 						{
@@ -7519,14 +7349,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_026~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_026~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_026~OMOP_Treatment_Episode",
+								"event_id": "fu_026~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -7553,12 +7379,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -7637,7 +7457,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_027~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_027"
 							}
 						},
 						{
@@ -7789,7 +7610,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-27",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_027~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_027~OMOP_Follow_Up_Visit_Occurrence",
@@ -7799,14 +7620,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_027~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_027~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_027~OMOP_Treatment_Episode",
+								"event_id": "fu_027~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -7917,7 +7734,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_028~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_028"
 							}
 						},
 						{
@@ -8069,7 +7887,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-25",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_028~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_028~OMOP_Follow_Up_Visit_Occurrence",
@@ -8079,14 +7897,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_028~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_028~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_028~OMOP_Treatment_Episode",
+								"event_id": "fu_028~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -8197,7 +8011,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_029~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_029"
 							}
 						},
 						{
@@ -8349,7 +8164,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-04-19",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_029~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_029~OMOP_Follow_Up_Visit_Occurrence",
@@ -8359,14 +8174,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_029~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_029~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_029~OMOP_Treatment_Episode",
+								"event_id": "fu_029~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -8488,7 +8299,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_030~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_030"
 							}
 						},
 						{
@@ -8640,7 +8452,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-01-04",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_030~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_030~OMOP_Follow_Up_Visit_Occurrence",
@@ -8650,14 +8462,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_030~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_030~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_030~OMOP_Treatment_Episode",
+								"event_id": "fu_030~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -8695,12 +8503,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -8779,7 +8581,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_031~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_031"
 							}
 						},
 						{
@@ -8931,7 +8734,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-27",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_031~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_031~OMOP_Follow_Up_Visit_Occurrence",
@@ -8941,14 +8744,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_031~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_031~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_031~OMOP_Treatment_Episode",
+								"event_id": "fu_031~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -9070,7 +8869,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_032~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_032"
 							}
 						},
 						{
@@ -9222,7 +9022,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-01",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_032~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_032~OMOP_Follow_Up_Visit_Occurrence",
@@ -9232,14 +9032,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_032~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_032~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_032~OMOP_Treatment_Episode",
+								"event_id": "fu_032~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -9361,7 +9157,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_033~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_033"
 							}
 						},
 						{
@@ -9513,7 +9310,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-25",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_033~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_033~OMOP_Follow_Up_Visit_Occurrence",
@@ -9523,14 +9320,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_033~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_033~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_033~OMOP_Treatment_Episode",
+								"event_id": "fu_033~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -9641,7 +9434,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_034~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_034"
 							}
 						},
 						{
@@ -9793,7 +9587,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2001-05-19",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_034~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_034~OMOP_Follow_Up_Visit_Occurrence",
@@ -9803,14 +9597,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_034~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_034~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_034~OMOP_Treatment_Episode",
+								"event_id": "fu_034~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -9932,7 +9722,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_035~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_035"
 							}
 						},
 						{
@@ -10094,14 +9885,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_035~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_035~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_035~OMOP_Treatment_Episode",
+								"event_id": "fu_035~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -10139,12 +9926,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -10223,7 +10004,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_036~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_036"
 							}
 						},
 						{
@@ -10375,7 +10157,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2003-02-19",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_036~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_036~OMOP_Follow_Up_Visit_Occurrence",
@@ -10385,14 +10167,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_036~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_036~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_036~OMOP_Treatment_Episode",
+								"event_id": "fu_036~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -10503,7 +10281,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_037~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_037"
 							}
 						},
 						{
@@ -10655,7 +10434,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-01-10",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_037~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_037~OMOP_Follow_Up_Visit_Occurrence",
@@ -10665,14 +10444,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_037~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_037~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_037~OMOP_Treatment_Episode",
+								"event_id": "fu_037~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -10794,7 +10569,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_038~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_038"
 							}
 						},
 						{
@@ -10946,7 +10722,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-11",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_038~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_038~OMOP_Follow_Up_Visit_Occurrence",
@@ -10956,14 +10732,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_038~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_038~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_038~OMOP_Treatment_Episode",
+								"event_id": "fu_038~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -11085,7 +10857,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_039~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_039"
 							}
 						},
 						{
@@ -11237,7 +11010,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-11-22",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_039~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_039~OMOP_Follow_Up_Visit_Occurrence",
@@ -11247,14 +11020,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_039~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_039~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_039~OMOP_Treatment_Episode",
+								"event_id": "fu_039~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -11292,12 +11061,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -11376,7 +11139,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_040~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_040"
 							}
 						},
 						{
@@ -11528,7 +11292,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2001-04-21",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_040~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_040~OMOP_Follow_Up_Visit_Occurrence",
@@ -11538,14 +11302,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_040~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_040~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_040~OMOP_Treatment_Episode",
+								"event_id": "fu_040~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -11667,7 +11427,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_041~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_041"
 							}
 						},
 						{
@@ -11819,7 +11580,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-25",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_041~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_041~OMOP_Follow_Up_Visit_Occurrence",
@@ -11829,14 +11590,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_041~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_041~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_041~OMOP_Treatment_Episode",
+								"event_id": "fu_041~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -11958,7 +11715,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_042~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_042"
 							}
 						},
 						{
@@ -12110,7 +11868,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-11-06",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_042~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_042~OMOP_Follow_Up_Visit_Occurrence",
@@ -12120,14 +11878,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_042~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_042~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_042~OMOP_Treatment_Episode",
+								"event_id": "fu_042~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -12249,7 +12003,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_043~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_043"
 							}
 						},
 						{
@@ -12401,7 +12156,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-17",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_043~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_043~OMOP_Follow_Up_Visit_Occurrence",
@@ -12411,14 +12166,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_043~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_043~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_043~OMOP_Treatment_Episode",
+								"event_id": "fu_043~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -12540,7 +12291,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_044~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_044"
 							}
 						},
 						{
@@ -12692,7 +12444,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-11",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_044~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_044~OMOP_Follow_Up_Visit_Occurrence",
@@ -12702,14 +12454,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_044~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_044~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_044~OMOP_Treatment_Episode",
+								"event_id": "fu_044~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -12747,12 +12495,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -12831,7 +12573,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_045~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_045"
 							}
 						},
 						{
@@ -12983,7 +12726,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-12",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_045~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_045~OMOP_Follow_Up_Visit_Occurrence",
@@ -12993,14 +12736,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_045~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_045~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_045~OMOP_Treatment_Episode",
+								"event_id": "fu_045~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -13122,7 +12861,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_046~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_046"
 							}
 						},
 						{
@@ -13274,7 +13014,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-06-07",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_046~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_046~OMOP_Follow_Up_Visit_Occurrence",
@@ -13284,14 +13024,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_046~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_046~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_046~OMOP_Treatment_Episode",
+								"event_id": "fu_046~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -13329,12 +13065,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -13413,7 +13143,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_047~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_047"
 							}
 						},
 						{
@@ -13565,7 +13296,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-09-15",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_047~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_047~OMOP_Follow_Up_Visit_Occurrence",
@@ -13575,14 +13306,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_047~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_047~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_047~OMOP_Treatment_Episode",
+								"event_id": "fu_047~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -13704,7 +13431,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_048~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_048"
 							}
 						},
 						{
@@ -13856,7 +13584,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-17",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_048~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_048~OMOP_Follow_Up_Visit_Occurrence",
@@ -13866,14 +13594,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_048~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_048~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_048~OMOP_Treatment_Episode",
+								"event_id": "fu_048~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -13995,7 +13719,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_049~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_049"
 							}
 						},
 						{
@@ -14147,7 +13872,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-03",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_049~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_049~OMOP_Follow_Up_Visit_Occurrence",
@@ -14157,14 +13882,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_049~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_049~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_049~OMOP_Treatment_Episode",
+								"event_id": "fu_049~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -14286,7 +14007,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_050~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_050"
 							}
 						},
 						{
@@ -14438,7 +14160,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2002-01-30",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_050~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_050~OMOP_Follow_Up_Visit_Occurrence",
@@ -14448,14 +14170,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_050~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_050~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_050~OMOP_Treatment_Episode",
+								"event_id": "fu_050~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -14577,7 +14295,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_051~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_051"
 							}
 						},
 						{
@@ -14729,7 +14448,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-10",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_051~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_051~OMOP_Follow_Up_Visit_Occurrence",
@@ -14739,14 +14458,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_051~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_051~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_051~OMOP_Treatment_Episode",
+								"event_id": "fu_051~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -14868,7 +14583,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_052~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_052"
 							}
 						},
 						{
@@ -15020,7 +14736,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-05-05",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_052~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_052~OMOP_Follow_Up_Visit_Occurrence",
@@ -15030,14 +14746,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_052~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_052~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_052~OMOP_Treatment_Episode",
+								"event_id": "fu_052~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -15075,12 +14787,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -15159,7 +14865,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_053~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_053"
 							}
 						},
 						{
@@ -15311,7 +15018,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2001-04-02",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_053~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_053~OMOP_Follow_Up_Visit_Occurrence",
@@ -15321,14 +15028,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_053~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_053~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_053~OMOP_Treatment_Episode",
+								"event_id": "fu_053~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -15450,7 +15153,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_054~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_054"
 							}
 						},
 						{
@@ -15602,7 +15306,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-22",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_054~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_054~OMOP_Follow_Up_Visit_Occurrence",
@@ -15612,14 +15316,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_054~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_054~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_054~OMOP_Treatment_Episode",
+								"event_id": "fu_054~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -15741,7 +15441,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_055~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_055"
 							}
 						},
 						{
@@ -15893,7 +15594,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-02-06",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_055~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_055~OMOP_Follow_Up_Visit_Occurrence",
@@ -15903,14 +15604,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_055~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_055~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_055~OMOP_Treatment_Episode",
+								"event_id": "fu_055~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -15948,12 +15645,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -16032,7 +15723,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_056~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_056"
 							}
 						},
 						{
@@ -16184,7 +15876,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-11-22",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_056~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_056~OMOP_Follow_Up_Visit_Occurrence",
@@ -16194,14 +15886,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_056~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_056~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_056~OMOP_Treatment_Episode",
+								"event_id": "fu_056~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
@@ -16239,12 +15927,6 @@
 						"ethnicity_concept_id": 4255047
 					},
 					"linked_records": [
-						{
-							"death": {
-								"death_type_concept_id": 32879,
-								"death_date": "1800-01-01"
-							}
-						},
 						{
 							"condition_occurrence": {
 								"condition_type_concept_id": 32879,
@@ -16323,7 +16005,8 @@
 								"specimen_type_concept_id": 32879,
 								"specimen_id": "spc_057~OMOP_Specimen",
 								"specimen_concept_id": 4002890,
-								"specimen_date": "1800-01-01"
+								"specimen_date": "1800-01-01",
+								"specimen_source_id": "spc_057"
 							}
 						},
 						{
@@ -16475,7 +16158,7 @@
 						{
 							"observation": {
 								"observation_type_concept_id": 32879,
-								"observation_date": "2000-03-23",
+								"observation_date": "1800-01-01",
 								"observation_id": "fu_057~OMOP_Follow_Up_Disease_Status_Observation",
 								"observation_concept_id": 4203711,
 								"observation_event_id": "fu_057~OMOP_Follow_Up_Visit_Occurrence",
@@ -16485,14 +16168,10 @@
 							}
 						},
 						{
-							"observation": {
-								"observation_type_concept_id": 32879,
-								"observation_date": "1800-01-01",
-								"observation_id": "fu_057~OMOP_Follow_Up_Relapse_Type_Observation",
-								"observation_concept_id": 4117444,
-								"observation_event_id": "fu_057~OMOP_Follow_Up_Visit_Occurrence",
-								"obs_event_field_concept_id": 1147070,
-								"value_as_concept_id": 4255047
+							"episode_event": {
+								"episode_id": "tx_057~OMOP_Treatment_Episode",
+								"event_id": "fu_057~OMOP_Follow_Up_Visit_Occurrence",
+								"episode_event_field_concept_id": 1147070
 							}
 						},
 						{
